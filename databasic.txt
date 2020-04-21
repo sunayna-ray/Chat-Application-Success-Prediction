@@ -1,0 +1,142 @@
+@relation app.symbolic
+@attribute 'Sr. No.' integer
+@attribute 'Name' string
+@attribute 'Age'{3+,18+, 12+}
+@attribute 'Top Developer' {Yes,No}
+@attribute 'Ads' {Yes, No}
+@attribute 'Size (MB)' integer
+@attribute 'Rating' integer
+@attribute 'Downloads (M)' string
+@data
+1,Woo,1,18+,No,Yes,21.54,4,
+2,Glynk,0.1,12+,No,No,8.31,4.5,
+3,Stranger chat,0.1,18+,No,Yes,2.14,3.3,
+4,Jaumo,10,18+,Yes,Yes,14.37,4.4,
+5,Hi,10,18+,Yes,Yes,6.86,4.2,
+6,WeChat,100,3+,Yes,No,34.09,4.2,
+7,Nearby,1,12+,No,Yes,5.14,3.9,
+8,InstaMessage,10,12+,No,Yes,16.88,4.4,
+9,Moco,10,18+,Yes,Yes,3.69,4.2,
+10,Dating,0.5,18+,No,No,4.65,4.2,
+11,MeetMe,10,18+,Yes,Yes,28.59,4.2,
+12,Chat,0.5,3+,No,Yes,19.42,3.8,
+13,hi5,5,18+,Yes,Yes,34.17,4.1,
+14,Love Chat,0.5,18+,No,Yes,3.96,3.5,
+15,iPair,1,18+,No,Yes,21.9,4.6,
+16,Badoo,100,18+,Yes,Yes,29.09,4.3,
+17,Frim,1,18+,No,Yes,11.47,4,
+18,Skout,10,18+,Yes,Yes,18.76,4.2,
+19,Girls Chat,0.1,12+,No,Yes,3.22,3.9,
+20,Indian Girls Chat,0.1,12+,No,Yes,4.32,3.7,
+21,Live Chat,1,12,No,No,20.55,4.7,
+22,Meet4U,1,18+,Yes,Yes,8.03,4.1,
+23,Lovoo,10,18+,Yes,Yes,14.64,4,
+24,AsianDate,1,18+,No,No,15.3,4,
+25,Waplog,10,18+,Yes,Yes,13.19,4.1,
+26,Mico,10,18+,No,Yes,33.89,4.3,
+27,FastMeet,10,18+,Yes,Yes,7.51,4.1,
+28,Lulala,0.5,18+,No,Yes,9.14,4,
+29,Hitwe,10,18+,No,Yes,20.94,4.2,
+30,4 Chat,1,18+,No,Yes,2.56,4.2,
+31,JioChat,10,3+,No,No,20.88,4.3,
+32,chat ICQ,10,3+,No,Yes,15.79,5,
+33,Tango,100,12,Yes,Yes,36.44,4.3,
+34,Hike,50,3+,No,No,35.43,4.3,
+,Whatsapp,1000+,,Yes,Yes,57,4.4,370+
+,Facebook Messengers,1000+,,Yes,no,61.62,3.9,23+
+,Viber,500+,,Yes,Yes,25.08,4.3,6.6+
+,IMO,100+,,Yes,Yes,4.83,4.3,2+
+,Skype,500+,,Yes,yes,20,4.1,5+
+,Telegram,100+,,Yes,No,10.74,4.3,1+
+,LINE,500+,,yes,yes,35.42,4.2,5+
+,BBM,100+,,yes,yes,26.68,4.3,7+
+,HANGOUTS,1000+,,yes,no,55.14,3.9,1+
+,zapzap,5,,no,yes,27.22,4.2,.9+
+,DISA,1,,no,no,25.67,4.2,.1+
+,Snapchat,500+,,yes,yes,67,4,6+
+,GroupMe,10+,,yes,no,9.84,4.5,1+
+, Kakao Talk,100+,,yes,yes,35.49,4.3,1+
+,MessageMe,1k,,no,yes,10.93,4.4,17 not in M
+,Kik,100+,,yes,no,37.34,4.3,1+
+,Tango,100+,,yes,yes,36.44,4.3,2+
+,pinngle,0.5,,no,no,27.91,4.4,"5,666 only"
+,Maaii,1,,no,no,47.92,4.4,70k
+,imessage,0.1,,no,yes,7,4.2,5k+
+,rounds,10k,,no,yes,2.04,4,151 simply
+,Nimbuzz,10,,no,yes,16.32,4.2,.2+
+,ChatOn,0.1,,no,yes,598kb,3.9,1301
+,Voxer,1,,yes,no,19.67,4.3,.15+
+,call summary,500 only,,no,no,747kb,5,2 only
+,Soma free,1,,no,yes,20.06,4.4,.3+
+,Single private M,1,,yes,no,23.29,4.6,88k+
+,Yahoo Messenger,50,,yes,no,10.07,4,0.3
+,VMS video me,1,,no,yes,13.75,4.1,4k+
+,glide video,10,,yes,no,31.57,4.3,.2+
+,textra sms,5,,no,yes,5.1,4.5,.2+
+,go sms,100,,yes,yes,16.12,4.4,1+
+,Jio4GVoice,50,,no,no,55.77,4.1,.3+
+,ExDialer,10,,no,no,1.6,4.2,.7+
+,stranger chat,0.5,,no,yes,2.16,3.4,1762 only
+,Mingle2,10,,no,yes,15.75,4.3,11k+
+,Just say hi,0.1,,no,no,20.47,4.3,2k+
+,chask,50k,,no,yes,4.91,3.5,76only
+,Meecha,0.1,,no,no,1.95,4.4,3k+
+, free dating hookup,50k,,no,no,19.48,3.8,157only
+,eHarmony,5,,no,no,20.68,3.1,10k+
+,Anonymous,0.5,,no,no,5.5,3.4,1k+
+,MeeMe2Date,0.1,,no,no,30.52,4.4,357only
+,Coupler,5k,,no,no,252kb,2.5,3only
+,Yee call,10,,no,Yes,13.63,4.2,.1+
+,SliQ-FREE,1,,no,no,10.84,4.2,5k+
+,Azar-video,50,,yes,Yes,32.91,4.1,.4+
+,WhatsCall,10,,no,no,16.26,4.6,.7+
+,Talkray-free,10,3+,Yes,Yes,7.59,4.2,0.14
+,ringID,500K,3+,No,Yes,26.59,4.3,6 k
+,AW,500K,12+,No,Yes,11.72,4,3.5k
+,ChatGame,1,3+,No,No,14.85,4.1,15k
+,OTO,5,3+,No,Yes,7.2,4.1,16k
+,ALO,1K,3+,No,Yes,16.53,5,6 only
+,Primo,1,12+,No,Yes,35.83,4.1,24k
+,TalkU,1,3+,No,Yes,29,4.4,54k
+,Vippie,0.5,3+,No,No,17.22,4,5k
+,Libon-International,10,3+,No,No,11.37,4.1,0.1
+,Wire-Private,1,3+,No,No,17,4.1,13k
+,Vonage mobile,1,3+,No,No,20.74,4.1,17k
+,Cheap International calls,1,3+,No,No,19.77,4,21k
+,trueConf free video calls,1,3+,No,No,9.78,4,4k
+,freePP,10,3+,No,Yes,13.6,4.2,62k
+,faceTalk,100 k,3+,No,No,650 kb,3.2,185 only
+,Wispi,100 k,12+,No,No,46.18,4.4,4k
+,Vimo,100k,3+,No,No,56.67,4.3,10k
+,Tinder,50,18+,Yes,Yes,36.67,4,1
+,Nearby-chat,1,12+,No,Yes,5.14,3.9,11k
+,Zalo,50,3+,No,No,25.65,4.2,520k
+,chatous,10,12+,Yes,Yes,27.77,4,94k
+,fiesta by tango,1,12+,No,Yes,32.41,4.2,66k
+,Bee talk,10,12+,No,No,22.31,4.1,496k
+,ChaCha-video chat,500k,12+,No,No,20.6,4.4,16k
+,text me,10,3+,Yes,Yes,29.28,4.2,181k
+,camfrog,10,12+,No,Yes,12.56,4.1,117k
+,tumblr,50,12+,Yes,Yes,22.16,4.4,1
+,paltalk,5,12+,No,Yes,18.4,4,33k
+,chat rooms,500k,12+,No,Yes,8.89,4.3,14k
+,girls chat,100k,12+,No,Yes,3.22,3.9,406k
+,text plus,10,3+,Yes,Yes,31.22,4.1,220k
+,message peeping Tom,500k,3+,No,Yes,8.6,4.3,8k
+,W-match,5,18+,Yes,Yes,15.62,4.1,42k
+,SayHi,10,12+,Yes,Yes,6.86,4.2,239k
+,waplog chat,10,18+,Yes,Yes,13.19,4.1,211k
+,badoo-meet,100,18+,Yes,Yes,29.09,4.3,2
+,mood message,1,3+,No,No,18.27,4.5,25k
+,verizon message,10,3+,Yes,No,67.59,4.6,321k
+,BetweenUs,10k,3+,No,Yes,4.39,4.3,371 only
+,MyDarling,1,12+,No,Yes,12.42,4.1,5k
+,ViMo,10k,3+,No,No,18.41,4.5,442 only
+,Talk2,1,3+,No,Yes,14.85,3.9,19k
+,GMT talk,1k,12+,No,Yes,6.93,4.6,62 only
+,TU talk,5k,3+,No,Yes,26.21,4.8,590 only
+,Lycachat,50k,3+,No,No,46.73,4.1,351 only
+,TelTel,5k,3+,No,No,9.25,3.4,17 only
+,Voys,5k,3+,No,No,17.62,4.1,22 only
+,Vazii,100k,12+,No,No,14.88,4.2,3k
+,menetalk,5k,3+,No,No,21.58,4.3,49 only
